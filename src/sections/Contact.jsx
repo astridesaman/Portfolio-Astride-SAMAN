@@ -26,9 +26,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: 'JavaScript Mastery',
+          to_name: 'Astride SAMAN',
           from_email: form.email,
-          to_email: 'sujata@jsmastery.pro',
+          to_email: 'astridesmn@gmail.com',
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
@@ -72,15 +72,15 @@ const Contact = () => {
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
 
         <div className="contact-container">
-          <h3 className="head-text">Let's talk</h3>
+          <br/>
+          <h3 className="head-text">Prenons contact !</h3>
           <p className="text-lg text-white-600 mt-3">
-            Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
-            life, I’m here to help.
+           Que ce soit pour une collaboration, opportunité professionnelle ...
           </p>
 
           <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
             <label className="space-y-3">
-              <span className="field-label">Full Name</span>
+              <span className="field-label">Nom complet</span>
               <input
                 type="text"
                 name="name"
@@ -93,7 +93,7 @@ const Contact = () => {
             </label>
 
             <label className="space-y-3">
-              <span className="field-label">Email address</span>
+              <span className="field-label">Adresse Mail</span>
               <input
                 type="email"
                 name="email"
@@ -106,7 +106,7 @@ const Contact = () => {
             </label>
 
             <label className="space-y-3">
-              <span className="field-label">Your message</span>
+              <span className="field-label">Votre message</span>
               <textarea
                 name="message"
                 value={form.message}
@@ -114,12 +114,12 @@ const Contact = () => {
                 required
                 rows={5}
                 className="field-input"
-                placeholder="Share your thoughts or inquiries..."
+                placeholder="Partagez vos pensées et demandes..."
               />
             </label>
 
             <button className="field-btn" type="submit" disabled={loading}>
-              {loading ? 'Sending...' : 'Send Message'}
+              {loading ? 'Envoie...' : 'Envoyer le message'}
 
               <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
             </button>
