@@ -78,9 +78,9 @@ export const myProjects = [
     },
 
     {
-      title: "ePacific - Une Plateforme Innovante pour les Textiles Écoresponsables",
-      desc: "ePacific est une solution de commerce électronique dédiée aux textiles écoresponsables. Alliant intelligence artificielle, personnalisation avancée, et un espace communautaire interactif, elle permet aux utilisateurs d'acheter, vendre et collaborer dans un environnement conçu pour promouvoir la durabilité.",
-      subdesc: "Développée avec des technologies modernes telles que Next.js, Tailwind CSS, TypeScript, et des intégrations avancées en IA/ML, ePacific offre une expérience utilisateur fluide et personnalisée, répondant aux attentes des consommateurs engagés en faveur de l'environnement.",
+      title: "ePacific - Un ecommerce AI-driven et Écoresponsable",
+      desc: "ePacific est une solution de commerce électronique alliant intelligence artificielle, personnalisation avancée, et un espace communautaire interactif, elle permet aux utilisateurs d'acheter, vendre et collaborer dans un environnement conçu pour promouvoir la durabilité.",
+      subdesc: "Développée avec des technologies modernes telles que React JS, Tailwind CSS, TypeScript, et des intégrations avancées en IA/ML, ePacific offre une expérience utilisateur fluide et personnalisée, répondant aux attentes des consommateurs engagés en faveur de l'environnement.",
       href: "https://www.epacific.com",
       texture: "/textures/project/epacific.mp4",
       logo: "/assets/ePacific_Logo_Branding.png",
@@ -91,7 +91,7 @@ export const myProjects = [
       },
       spotlight: "/assets/spotlight1.png",
       tags: [
-        { id: 1, "name": "Next.js", "path": "/assets/react.svg" },
+        { id: 1, "name": "React.js", "path": "/assets/react.svg" },
         { id: 2, "name": "TailwindCSS", "path": "/assets/tailwindcss.png" },
         { id: 3, "name": "TypeScript", "path": "/assets/typescript.png" },
         { id: 4, "name": "AI/ML", "path": "/assets/python-logo-only.svg" }
