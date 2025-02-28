@@ -2,13 +2,12 @@ import React from "react";
 
 const SkillsGrid = () => {
   const skills = [
-    { name: "Python", logo: "/assets/python-logo-only.svg" },
-    { name: "MySQL", logo: "/assets/mysql.svg" },
-    { name: "React.js", logo: "/assets/react.svg" },
-    { name: "ThreeJs", logo: "/assets/ThreeJS logo.png" },
-    { name: "Astride", logo: "/assets/AS.png" },
-    { name: "Java", logo: "/assets/java.svg" },
-    { name: "TypeScript", logo: "/assets/Typescript_logo_2020.svg" }
+    { name: "Python", logo: "/assets/logo/python-logo-only.svg" },
+    { name: "MySQL", logo: "/assets/logo/mysql.svg" },
+    { name: "React.js", logo: "/assets/logo/react.svg" },
+    { name: "ThreeJs", logo: "/assets/logo/docker.png" },
+    { name: "Java", logo: "/assets/logo/java.svg" },
+    { name: "TypeScript", logo: "/assets/logo/Typescript_logo_2020.svg" }
   ];
 
   return (
@@ -23,9 +22,7 @@ const SkillsGrid = () => {
           </div>
         ))}
       </div>
-      <div className="absolute flex items-center justify-center w-32 h-32 shadow-lg">
-        <img src="/assets/AS-removebg-preview.png" alt="Main Logo" className="w-50 h-50" />
-      </div>
+  
     </div>
   );
 };

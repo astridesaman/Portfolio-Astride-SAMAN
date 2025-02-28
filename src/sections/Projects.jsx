@@ -65,7 +65,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer">
               <p>Accéder au site</p>
-              <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
+              <img src="/assets/arrow_up.png" alt="arrow" className="w-7 h-7" />
             </a>
           </div>
 

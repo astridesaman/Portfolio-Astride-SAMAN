@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="social-icon">
           <a href="https://github.com/2121-asoff" className="group">
             <img 
-              src="/assets/github.svg" 
+              src="/assets/logo/github.svg" 
               alt="github" 
               className="w-7 h-7 group-hover:scale-110 group-hover:brightness-75 transition-transform duration-300"
             />
@@ -21,7 +21,7 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/astride-saman/" className="group">
             <img 
               alt="linkedin" 
-              src="/assets/linkedin-white.svg" 
+              src="/assets/logo/linkedin-white.svg" 
               className="w-7 h-7 group-hover:scale-110 group-hover:brightness-75 transition-transform duration-300"
             />
           </a>
@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="social-icon">
           <a href="https://www.instagram.com/astride.smn/" className="group">
             <img 
-              src="/assets/instagram.svg" 
+              src="/assets/logo/instagram.svg" 
               alt="instagram" 
               className="w-7 h-7 group-hover:scale-110 group-hover:brightness-75 transition-transform duration-300"
             />
@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="text-white-500">© 2024 Astride SAMAN. Tous droits réservés.</p>
+      <p className="text-white-500">© 2025 Astride SAMAN. Tous droits réservés.</p>
     </footer>
   );
 };
