@@ -8,7 +8,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('astride@etudiante.nc');
+    navigator.clipboard.writeText('astridesmn@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -59,7 +59,7 @@ const About = () => {
                 showGraticules
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                labelsData={[{ lat: -22.276, lng: 166.457, text: 'Nouméa, Nouvelle-Calédonie', color: 'white', size: 15 }]}
+                labelsData={[{ lat: -22.276, lng: 166.457, text: 'Noumea, Nouvelle-Caledonie', color: 'white', size: 15 }]}
               />
             </div>
             <div>
@@ -98,7 +98,7 @@ const About = () => {
             <div className="space-y-2">
               <p className="grid-subtext text-center">Me Contacter</p>
               <div className="copy-container" onClick={handleCopy}>
-                <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
+                <img src={hasCopied ? '/assets/tick.svg' : '/assets/copy.svg'} alt="copy" />
                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
                   astridesmn@gmail.com
                 </p>
