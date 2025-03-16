@@ -75,7 +75,9 @@ export const myProjects = [
         { id: 3, name: 'TypeScript', path: '/assets/logo/typescript.png' },
         { id: 4, name: 'Framer Motion', path: '/assets/logo/framer.png' },
       ],
-    },
+    }
+
+    /*
 
     {
       title: "ePacific - Un ecommerce AI-driven et Écoresponsable",
@@ -117,6 +119,7 @@ export const myProjects = [
         { id: 4, "name": "AI/ML", "path": "/assets/logo/python-logo-only.svg" }
       ]
     }
+      */
     
 ];
 
@@ -128,18 +131,13 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
     reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
     ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
     targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
-    duckPosition: isSmall 
-    ? [3, -5, 0]   // Légèrement remonté et rapproché
-    : isMobile 
-    ? [2, 0, -2]   // Ajusté pour mobile
-    : isTablet 
-    ? [10, -9.5, 0]  // Ajusté pour tablette
-    : [0.5, -9.5, 0]  // Ajusté pour desktop
+    duckPosition: isSmall ? [-5, -5, 0] : isMobile ? [2, 0, -2] : isTablet ? [10, -9.5, 0] : [10, -9.5, 0]  // Ajusté pour tablette
+
   };
 };
 
 export const workExperiences = [
-
+/* Expériences professionnelles
   {
     id: 1,
     name: 'ePacific',
@@ -149,12 +147,13 @@ export const workExperiences = [
     icon: '/assets/logo/ePacific_Logo_Branding.png',
     animation: 'victory',
   },
+  */
   {
-    id: 2,
+    id: 1,
     name: 'Les Pizzaiolas',
     pos: 'Co-Fondatrice',
     duration: '2024',
-    title: "En tant que co-fondatrice de Les Pizzaiolas, j'ai conçu et lancé le projet d'une pizzeria ambulante au feu de bois, alliant tradition culinaire et innovation technologique, avec une plateforme moderne de commande en ligne et mobile pour offrir une expérience client unique.",
+    title: "En tant que co-fondatrice de Les Pizzaiolas, j'ai lancé le projet d'une pizzeria ambulante au feu de bois, alliant tradition culinaire italienne et calédonienne. J'ai conçu une plateforme moderne de commande en ligne et mobile pour offrir une expérience client unique.",
     icon: '/assets/logo/Les_Pizzaiolas_Logo_Branding.png',
     animation: 'clapping',
   },
@@ -176,5 +175,15 @@ export const workExperiences = [
     icon: '/assets/logo/logo-province-sud.png',
     animation: 'salute',
   },
+  {
+  id: 5,
+  name: 'La Foir\'Fouille',
+  pos: 'Vendeuse',
+  duration: 'Novembre 2023',
+  title: "Mon expérience en tant que vendeuse chez La Foir\'Fouille m'a permis de développer des compétences en relation client, et en organisation de l'espace de vente.",
+  icon: '/assets/logo/logo-foirfouille.svg',
+  animation: 'clapping',
+  }
+
   // Expériences restantes traduites de manière similaire...
 ];

@@ -1,4 +1,4 @@
-import { Suspense, useState } from 'react';
+import { Suspense, useState, useEffect } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 
@@ -8,14 +8,31 @@ import { workExperiences } from '../constants/index.js';
 
 const WorkExperience = () => {
   const [animationName, setAnimationName] = useState('idle');
+  const [isInteracting, setIsInteracting] = useState(false);
+
+  useEffect(() => {
+    if (isInteracting) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+      document.body.style.overflow = ''; // Réinitialisation lors du démontage
+    };
+  }, [isInteracting]);
 
   return (
     <section className="c-space my-20" id="work">
       <div className="w-full text-white-600">
-        <p className="head-text">Mon expérience professionnel</p>
+        <p className="head-text">Mon expérience professionnelle</p>
 
         <div className="work-container">
-          <div className="work-canvas">
+          <div 
+            className="work-canvas"
+            onMouseEnter={() => setIsInteracting(true)}
+            onMouseLeave={() => setIsInteracting(false)}
+          >
             <Canvas>
               <ambientLight intensity={7} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />

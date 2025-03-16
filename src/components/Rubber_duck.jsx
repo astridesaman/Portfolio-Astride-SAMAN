@@ -25,8 +25,8 @@ export function RubberDuck({ position = [0, 0, 0] }) {
       <mesh 
         geometry={nodes.Object_4.geometry} 
         material={materials.RubberDuck} 
-        position={[-10, -1,-1]} 
-        rotation={[Math.PI / 2, 0, 0]} 
+        position={[-12, 9,0]} 
+        rotation={[Math.PI / 2, 0,-0.3]} 
       />
     </group>
   );
