@@ -60,7 +60,7 @@ export const myProjects = [
       desc: 'Les Pizzaiolas est une pizzeria ambulante moderne qui allie tradition et technologie. Grâce à une plateforme de commande web et mobile intuitive, elle propose une expérience client unique et des pizzas cuites au feu de bois, personnalisables et de qualité supérieure.',
       subdesc: 
         'Développée avec des technologies modernes comme React Native, Tailwind CSS, TypeScript, et Framer Motion, la plateforme Les Pizzaiolas est conçue pour offrir une performance optimale et une expérience fluide aux utilisateurs.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      href: '',
       texture: '/textures/project/les pizzaiolas project.mp4',
       logo: '/assets/logo/Les_Pizzaiolas_Logo_Branding.png',
       logoStyle: {
