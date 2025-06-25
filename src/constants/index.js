@@ -22,8 +22,20 @@ export const navLinks = [
 ];
 
 export const Schools = [
-  {
+    {
+    
     id: 1,
+    etablissement: 'Université Côte d\'Azur',
+    annees: '2026',
+    position: 'Etudiante en 3ème année de Licence Informatique parcours Intelligence Artificielle',
+    logo_etablissement: '/assets/logo/uca-logo-haut.png',
+    matieres:
+      '',
+    animation: 'clapping'
+  },
+  {
+
+    id: 2,
     etablissement: 'Université de la Nouvelle-Calédonie',
     annees: '2025',
     position: 'Etudiante en 3ème année de Licence Informatique',
@@ -33,7 +45,7 @@ export const Schools = [
     animation: 'clapping'
   },
   {
-    id: 2,
+    id: 3,
     etablissement: 'Lycée Dick Ukeiwe',
     annees: '2022',
     position: 'Etudiante en 1ère année de Diplôme de Comptabilité & Gestion',
@@ -43,7 +55,7 @@ export const Schools = [
     animation: 'salute'
   },
   {
-    id: 3,
+    id: 4,
     etablissement: 'Lycée Lapérouse',
     annees: '2021',
     position: 'Baccalauréat STMG option Gestion & Finance, obtenu avec Mention Assez Bien',
